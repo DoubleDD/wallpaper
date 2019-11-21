@@ -1,4 +1,4 @@
-package com.doubledd.zpdhy.wallpaper.part3;
+package com.doubledd.zpdhy.wallpaper.chapter1.part3;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

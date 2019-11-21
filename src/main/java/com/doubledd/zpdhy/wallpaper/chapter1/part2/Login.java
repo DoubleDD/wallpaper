@@ -1,4 +1,4 @@
-package com.doubledd.zpdhy.wallpaper.part2;
+package com.doubledd.zpdhy.wallpaper.chapter1.part2;
 
 import com.doubledd.zpdhy.wallpaper.utils.StringUtils;
 import javafx.application.Application;
@@ -81,7 +81,7 @@ public class Login extends Application {
         });
         Scene scene = new Scene(gridPane, 300, 250);
         primaryStage.setScene(scene);
-        scene.getStylesheets().add(Login.class.getResource("/styles/Login.css").toExternalForm());
+        scene.getStylesheets().add(Login.class.getResource("/chapter1/styles/Login.css").toExternalForm());
         primaryStage.setTitle("Login");
         primaryStage.show();
     }

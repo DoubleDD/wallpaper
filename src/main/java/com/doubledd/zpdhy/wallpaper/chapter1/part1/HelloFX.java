@@ -1,4 +1,4 @@
-package com.doubledd.zpdhy.wallpaper.part1;
+package com.doubledd.zpdhy.wallpaper.chapter1.part1;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

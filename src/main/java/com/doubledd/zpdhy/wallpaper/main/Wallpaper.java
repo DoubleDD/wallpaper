@@ -1,4 +1,4 @@
-package com.doubledd.zpdhy.wallpaper.part3;
+package com.doubledd.zpdhy.wallpaper.main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,24 +8,18 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-
-/**
- * @author XPS
- */
-public class Login extends Application {
+public class Wallpaper extends Application {
 
     public static void main(String[] args) {
-        Application.launch(Login.class, args);
+        launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/layout/fxml_example.fxml"));
-        Scene scene = new Scene(root, 300, 250);
-        primaryStage.setTitle("FXML Welcome");
+        Parent root = FXMLLoader.load(getClass().getResource("/main/layout/wallpaper.fxml"));
+        Scene scene = new Scene(root);
+        primaryStage.setTitle("壁纸");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-
-
 }

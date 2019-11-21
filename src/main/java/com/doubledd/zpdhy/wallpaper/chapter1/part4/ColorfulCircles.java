@@ -1,4 +1,4 @@
-package com.doubledd.zpdhy.wallpaper.part4;
+package com.doubledd.zpdhy.wallpaper.chapter1.part4;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
